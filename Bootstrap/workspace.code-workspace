@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\HTML5 TUTORIAL"
+		},
+		{
+			"path": "..\\CSS3 Demo"
+		},
+		{
+			"path": "..\\CSS Basics"
+		},
+		{
+			"path": "..\\Responsive"
+		},
+		{
+			"path": "..\\Landing Page"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bootstrap"
+	}
+}

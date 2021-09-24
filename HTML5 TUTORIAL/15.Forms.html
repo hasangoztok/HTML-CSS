@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Forms & Inputs</title>
+</head>
+<body>
+    <form action="process.php">
+        <!-- HTML5 Input -->
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name" placeholder="your name"/> <br>
+       
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" name="email"placeholder="your email"/> <br/>
+
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password"/>
+        <br>
+
+        <label for="date">Date</label> <br>
+        <input type="date" id="date" name="date"/>
+        <br>
+
+        Gender <br>
+        Male 
+        <input type="radio" name="gender" value="male" checked />
+        Female
+        <input type="radio" name="gender" value="female"/>
+        Other
+        <input type="radio" name="gender" value="other"/>
+
+        <br>
+
+        Hobbies <br>
+        Tech
+        <input type="checkbox" name="tech" id="tech">
+        Music
+        <input type="checkbox" name="music" id="music">
+        Art
+        <input type="checkbox" name="art" id="art">
+
+        <br>
+
+        Degree <br>
+        <select name="degree" id="degree">
+        <br>
+        <option value="Bachelor's">Lisans</option>
+        <option value="Master">Yüksek Lisans</option>
+        <option value="Phd" selected>Doktora</option> 
+    </select>
+    <br>
+    Message
+    <br>
+    <textarea name="message" id="message" placeholder="Write your message here!" rows="10" cols="50"></textarea>
+
+        <br>
+        <!-- <button type="submit">Gönder</button> -->
+        <input type="submit" value="Submit"/>
+          <!-- <button type="reset">Sıfırla</button> -->
+        <input type="reset" value="Sıfırla"/>
+    </form>
+</body>
+</html>

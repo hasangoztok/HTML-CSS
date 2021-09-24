@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elements</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        /* .para1:first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            font-size: 50px;
+            color: royalblue;
+        } */
+        .para1::after{
+            content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png);   
+        }
+        .para1::before{
+            content: "Paragraf öncesi";
+        }
+    </style>
+</head>
+<body>
+    <p class="para1"><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo est quis iure quisquam laborum ipsum animi non nobis eos, libero reprehenderit velit porro dolor repellat assumenda quas veniam culpa, ratione nihil voluptatum! Nihil, cupiditate id libero ipsa, modi culpa at eveniet molestiae, a sequi voluptas quos impedit illum iste quidem. Neque deserunt eveniet asperiores veritatis officia iusto atque nesciunt molestiae id! Molestias eveniet possimus, alias tempora incidunt aliquam quasi ducimus nulla quae eos laborum maiores quis nobis hic ut at? Ad dignissimos blanditiis obcaecati molestias ab harum iusto. Delectus aut illo laudantium a ullam hic officiis aliquam, expedita quos voluptatibus? <br> </p>
+    
+</body>
+</html>
